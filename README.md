@@ -1,7 +1,7 @@
 <h2>First time setup:</h2>
 <hr/>
 <p>
-  1.Clone the repo:git clone https://github.com/laynahgao/wdi-week10-wayfarer.git
+  1.Clone the repo:git clone https://github.com/laynahgao/wdi-wayfarer.git
  <br>
   2.Go into folder:cd BackEnd
  <br>
