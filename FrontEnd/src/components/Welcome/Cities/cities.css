@@ -1,0 +1,109 @@
+
+.citi_row{
+	display: flex;
+	flex-direction: row;
+	flex-flow: row;
+}
+
+.tab_title_wrap{
+	padding-top: 4em;
+	width: 300px;
+	height: 40px;
+	display:flex;
+	flex-direction: column;
+	padding-left:20px;
+
+}
+.tab_title{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color:black;
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 5px;
+}
+.active{
+	color: #FFF;
+	background-color:grey;
+}
+.tab_item_wrap{
+	padding-top: 0em;
+	padding-left: 20em;
+	padding-right: 2em;
+
+	/* width: 600px;
+	height: 600px;
+	 */
+}
+.tab_item{
+	/* width: 600px;
+	height: 600px; */
+	text-align: left;
+	line-height: 10px;
+	color:black;
+	display: none;
+	border: 2px solid grey;
+	border-radius: 5px;
+}
+.show{
+	display: block;
+}
+h3{
+	padding-left: 50px;
+	margin-top: 60px;
+	position: relative;
+
+}
+h4{
+	padding-left: 50px;
+	position: relative;
+
+}
+.comment{
+	padding-top: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+/* City Titele Show Section */
+cityTitle{
+	padding-left: 12px;
+}
+.post img {
+	max-width: 30%;
+	/* display: flex; */
+	margin-top: -120px;
+	margin-left: 350px;
+	position: block;
+	/* margin-bottom: 30px; */
+
+  }
+
+/* Creat new post section */
+#newPostModal{
+	padding: 10px 20px;
+}
+.br{
+	padding: 5px;
+}
+textarea{
+	width: 100%;
+	height: 50px;
+}
+
+/* New post loading part */
+.newPost{
+	border-bottom: 1px solid #D9D9D9;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+
+}
+p.newPostTitle {
+ font-weight: bold;
+}
+button:hover{
+	background-color:#D9D9D9; 
+}

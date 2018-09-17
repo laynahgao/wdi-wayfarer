@@ -1,0 +1,43 @@
+  /* ProfileEdit Page*/
+  #profileModal{
+    text-align: center;
+    padding:50px 200px;
+  }
+
+  #editUserForm{
+    text-align: left;
+    color:black;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding:10px 80px;
+  }
+
+  #editUserForm input{
+    display: flex;
+    width: 100%;
+  }
+
+  #editUserForm  button{
+    flex-flow: row;
+    width: 30%;
+    margin-top: 10px;
+    margin-left : -2px;
+    text-align: center;
+  }
+
+  #editUserForm heading {
+    text-align: center;
+    background-color:grey;
+  }
+
+  /* ProfileView Page*/
+  #profileViewModal{
+    text-align: center;
+    padding:50px 200px;
+  }
+  #link h4{
+    padding-left: 5em;
+  }
+  #view {
+    padding-top: 20px;
+  }
